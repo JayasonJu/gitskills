@@ -1,2 +1,6 @@
 This is in gitskills repository. (main)
-Creating a new branch is quick. (deveb) & simple
+<<<<<<< HEAD
+Creating a new branch is quick. (deveb) and simple.
+=======
+Creating a new branch is quick. (deveb) AND simple.
+>>>>>>> feature1

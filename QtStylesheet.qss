@@ -1,0 +1,14 @@
+记录一些样式表中元素描述和使用方法
+
+
+1、QScrollArea 样式美化：
+说明：水平滚动条：QScrollArea:horizontal{}  垂直滚动条：QScrollArea:vertical{}
+下面以垂直滚动条样式为例进行相关内容说明,需要换为水平滚动条设置只需要将vertical替换为horizontal即可：
+整个垂直滚动条区域样式：QScrollBar:vertical{ }
+滚动条上下面区域样式：	QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical{ }
+滑块区域样式：			QScrollBar::handle:vertical{ }
+鼠标悬停和点击滑块样式：QScrollBar::handle:vertical:hover,QScrollBar::handle:vertical:pressed{ }
+向上箭头样式：			QScrollBar::sub-line:vertical{ }
+向上箭头悬停和点击样式：QScrollBar::sub-line:vertical:hover,QScrollBar::sub-line:vertical:pressed{ }
+向下箭头样式：			QScrollBar::add-line:vertical{ }
+向下箭头悬停和点击样式：QScrollBar::add-line:vertical:hover,QScrollBar::add-line:vertical:pressed{ }
